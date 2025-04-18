@@ -1,0 +1,51 @@
+.company {
+    padding-block: 190px;
+}
+
+.company__container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.company__numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.company__numbers-item-value {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 1.4;
+}
+
+.company__numbers-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-grey);
+}
+
+.company__info {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company__info-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.4;
+}
+
+.company__info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.company__info-text:first-of-type {
+    margin-top: auto;
+}
