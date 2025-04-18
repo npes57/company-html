@@ -22,3 +22,11 @@
     gap: 35px;
     align-items: center;
 }
+
+.header__menu-item {
+    transition: 0.3s;
+}
+
+.header__menu-item:hover {
+    opacity: 0.7;
+}
