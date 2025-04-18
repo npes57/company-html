@@ -1,7 +1,7 @@
 .hero {
     background-color: var(--color-black);
     color: var(--color-white);
-    padding-block: 150px;
+    padding-block: 150px 210px; 
 }
 
 .hero__title {
@@ -16,4 +16,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    margin-top: 30px;
+}
+
+.hero__button {
+    margin-top: 50px;
 }
