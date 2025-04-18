@@ -1,0 +1,19 @@
+.hero {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding-block: 150px;
+}
+
+.hero__title {
+    max-width: 936px;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 1;
+}
+
+.hero__subtitle {
+    max-width: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
