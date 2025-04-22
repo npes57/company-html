@@ -1,11 +1,23 @@
 .about {
-    padding-block: 190px;
+    padding-block: 194px;
 }
 
-.about__info {
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__info-red {
     max-width: 570px;
     display: flex;
     flex-direction: column;
+}
+
+.about__info-grey {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .about__info-title {
@@ -27,4 +39,13 @@
     background-color: var(--color-black);
     color: var(--color-white);
     margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.about__image-red {
+    margin-top: 210px;
+}
+
+.about__image-grey {
+    margin-bottom: 210px;
 }
