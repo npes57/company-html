@@ -1,0 +1,9 @@
+.house {
+    padding-bottom: 190px;
+    max-width: 1600px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

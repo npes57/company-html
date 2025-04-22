@@ -1,0 +1,35 @@
+.quote {
+    padding-bottom: 190px;
+}
+
+.quote__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-grey);
+}
+
+.quote__text {
+    max-width: 820px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.quote__author {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.quote__author-position {
+    color: var(--color-grey);
+}
